@@ -12,7 +12,7 @@ export default defineConfig({
   },
 
   e2e: {
-    baseUrl: 'http://localhost:3001',
+    baseUrl: 'https://challange20.onrender.com/:10000',
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
